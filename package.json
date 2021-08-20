@@ -1,5 +1,5 @@
 {
-  "name": "@trapcodeio/js-toolbox",
+  "name": "@trapcode/js-toolbox",
   "version": "0.0.2",
   "description": "Well Documented  Functions we find ourselves reinventing every-time.",
   "main": "index.js",
