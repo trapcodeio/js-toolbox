@@ -1,5 +1,5 @@
 # Trapcode's Toolbox
-Well Documented  Functions i find myself reinventing every-time.
+Well Documented  Functions we find ourselves reinventing every-time.
 
 Written in Typescript for different enviroments and frameworks but for now we will focus on functions required by
 
