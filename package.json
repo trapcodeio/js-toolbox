@@ -1,0 +1,18 @@
+{
+  "name": "@trapcodeio/js-toolbox",
+  "version": "0.0.1",
+  "description": "Well Documented  Functions we find ourselves reinventing every-time.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "repository": "https://github.com/trapcodeio/js-toolbox.git",
+  "author": "trapcodeio <trapcode.io@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "watch": "tsc --watch"
+  },
+  "devDependencies": {
+    "@types/node": "^16.6.2",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.3.5"
+  }
+}
