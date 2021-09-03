@@ -16,4 +16,3 @@ All shipped in modules and strictly typed.
 - [crypto/hash](./docs/crypto/hash.md)
 - [errors/lazy-try-catch](./docs/errors/lazy-try-catch.md)
 
-## Files coming Soon
