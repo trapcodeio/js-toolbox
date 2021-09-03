@@ -1,4 +1,4 @@
-# crypto/md5
+# crypto/hash
 
 This file contains functions that has to deal with `hashing`
 

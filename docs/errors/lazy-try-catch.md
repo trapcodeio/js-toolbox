@@ -4,11 +4,11 @@ This file contains functions that has to deal with boycotting forceful `try` and
 
 ## Functions
 
-- [tryFn](#tryFn) - Try and catch functions.
+- [tryFn](#tryfn) - Try and catch functions.
 - [resolve](#resolve) - Try and catch promises.
 
 ### tryFn
-
+Try and catch functions.
 ```ts
 import {tryCatch as t} from "@trapcodeio/js-toolbox/errors/lazy-try-catch";
 
@@ -21,7 +21,7 @@ console.log(value) // returned value
 ```
 
 ### resolve
-
+Try and catch promises.
 ```ts
 import {resolve as r} from "@trapcodeio/js-toolbox/errors/lazy-try-catch";
 

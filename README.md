@@ -1,5 +1,6 @@
 # Trapcode's Toolbox
-Well Documented  Functions we find ourselves reinventing every-time.
+
+Well Documented Functions we find ourselves reinventing every-time.
 
 Written in Typescript for different environments and frameworks but for now we will focus on functions required by
 
@@ -9,11 +10,10 @@ Written in Typescript for different environments and frameworks but for now we w
 
 All shipped in modules and strictly typed.
 
-
 ## Links
-- Day To Day
-  - Randoms
-  - Utilities
 
+- [array/manipulate](./docs/array/manipulate.md)
+- [crypto/hash](./docs/crypto/hash.md)
+- [errors/lazy-try-catch](./docs/errors/lazy-try-catch.md)
 
 ## Files coming Soon
