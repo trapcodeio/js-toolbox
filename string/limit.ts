@@ -37,8 +37,14 @@ export function strLimit(str: string, length: number, prependIfLong?: string): s
  */
 export function strLimitWordsByLength(str: string, length: number, prependIfLong?: string) {
     // Limit str without prependIfLong
+    let limitedStr: string | string[] = strLimit(str, length)
+
+    // if `strLimit` returns same string, it means the length of the
+    // string is not upto the required length.
+    if(limitedStr === str) return  str;
+
     // Split string using space
-    const limitedStr = strLimit(str, length).split(" ");
+    limitedStr = limitedStr.split(" ");
 
     // Remove last item to be sure we don't have a word that is cut short.
     limitedStr.pop();

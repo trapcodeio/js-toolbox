@@ -15,4 +15,5 @@ All shipped in modules and strictly typed.
 - [array/manipulate](./docs/array/manipulate.md)
 - [crypto/hash](./docs/crypto/hash.md)
 - [errors/lazy-try-catch](./docs/errors/lazy-try-catch.md)
+- [string/limit](./docs/string/limit.md)
 
