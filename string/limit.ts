@@ -36,12 +36,15 @@ export function strLimit(str: string, length: number, prependIfLong?: string): s
  * "Do have a..." // lovely is not included.
  */
 export function strLimitWordsByLength(str: string, length: number, prependIfLong?: string) {
+    // if string has no spaces, return raw strLimit
+    if (!str.indexOf(" ")) return strLimit(str, length, prependIfLong);
+
     // Limit str without prependIfLong
     let limitedStr: string | string[] = strLimit(str, length)
 
     // if `strLimit` returns same string, it means the length of the
     // string is not upto the required length.
-    if(limitedStr === str) return  str;
+    if (limitedStr === str) return str;
 
     // Split string using space
     limitedStr = limitedStr.split(" ");

@@ -1,0 +1,9 @@
+.idea
+node_modules
+docs
+tests
+
+# ignore the .ts files
+*.ts
+# include the .d.ts files
+!*.d.ts
