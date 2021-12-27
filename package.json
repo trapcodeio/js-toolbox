@@ -1,6 +1,6 @@
 {
   "name": "@trapcode/js-toolbox",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Well Documented  Functions we find ourselves reinventing every-time.",
   "main": "index.js",
   "types": "index.d.ts",
