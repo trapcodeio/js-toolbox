@@ -37,7 +37,7 @@ export function strLimit(str: string, length: number, prependIfLong?: string): s
  */
 export function strLimitWordsByLength(str: string, length: number, prependIfLong?: string) {
     // if string has no spaces, return raw strLimit
-    if (!str.indexOf(" ")) return strLimit(str, length, prependIfLong);
+    if (str.indexOf(" ") < 0) return strLimit(str, length, prependIfLong);
 
     // Limit str without prependIfLong
     let limitedStr: string | string[] = strLimit(str, length)
